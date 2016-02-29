@@ -30,8 +30,13 @@ font pango:monospace 8
 floating_modifier $mod
 
 #volume
+bindsym F8 exec amixer -D pulse sset Master toggle
+bindsym F9 exec amixer -D pulse sset Master 5%-
+bindsym F10 exec amixer -D pulse sset Master 5%+
 
 #brightness
+bindsym F6 exec xbacklight -dec 5%
+bindsym F7 exec xbacklight -inc 5%
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
