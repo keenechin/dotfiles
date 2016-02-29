@@ -38,7 +38,8 @@ bindsym F10 exec amixer -D pulse sset Master 5%+
 bindsym F6 exec xbacklight -dec 5%
 bindsym F7 exec xbacklight -inc 5%
 
-
+#touch
+exec ~/bin/dotfiles/touch.sh
 #mouse
 focus_follows_mouse no
 # start a terminal
