@@ -28,7 +28,6 @@ font pango:monospace 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-
 #volume
 bindsym F8 exec amixer -D pulse sset Master toggle
 bindsym F9 exec amixer -D pulse sset Master 5%-
