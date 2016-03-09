@@ -5,3 +5,8 @@ set softtabstop=4
 set shiftround
 set expandtab
 filetype indent plugin on
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'lervag/vimtex'
+call plug#end()
