@@ -1,0 +1,6 @@
+Host foucault
+	HostName foucault.andrew.cmu.edu
+	User keenec
+	Port 22
+	IdentityFile ~/.ssh/pix_foucault
+	ForwardX11 yes
