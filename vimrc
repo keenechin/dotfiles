@@ -16,6 +16,7 @@ Plugin 'tmhedberg/SimpylFoldy'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'rust-lang/rust.vim'
 
+set number relativenumber
 
 set encoding=utf-8
 
