@@ -14,7 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 Plugin 'tmhedberg/SimpylFoldy'
 Plugin 'vim-scripts/indentpython.vim'
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'rust-lang/rust.vim'
 
 
 set encoding=utf-8
