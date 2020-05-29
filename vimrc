@@ -45,7 +45,8 @@ au BufNewFile,BufRead *.py
 
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
-
+colorscheme desert
+set background=dark
 
 
 " All of your Plugins must be added before the following line
