@@ -1,0 +1,5 @@
+VisualHostKey = yes
+
+Host carbon
+    User Kaeladin
+    Hostname carbon.collegiumv.org
