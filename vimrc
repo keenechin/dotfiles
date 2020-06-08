@@ -53,3 +53,9 @@ set background=dark
 call vundle#end()            " required
 filetype plugin indent on    " required
 set guicursor=
+
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 0
+
+call plug#begin()
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
