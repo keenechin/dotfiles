@@ -16,3 +16,4 @@ alias vim='nvim'
 alias ta='tmux a'
 alias tls='tmux ls'
 alias clc='clear'
+chpwd() ls
