@@ -12,10 +12,14 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
-Plugin 'tmhedberg/SimpylFoldy'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'rust-lang/rust.vim'
-
+Plugin 'itchyny/lightline.vim'
+Plugin 'preservim/nerdtree'
+Plugin 'terryma/vim-expand-region'
+Plugin 'amix/open_file_under_cursor.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tmhedberg/SimpylFold'
 set number relativenumber
 
 set encoding=utf-8
@@ -58,4 +62,9 @@ let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 0
 
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'michaeljsmith/vim-indent-object'
 call plug#end()
+
+source $HOME/.dotfiles/python.vim
