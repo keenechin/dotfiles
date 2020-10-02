@@ -20,17 +20,16 @@ Plugin 'terryma/vim-expand-region'
 Plugin 'amix/open_file_under_cursor.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tmhedberg/SimpylFold'
+" Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
+Plugin 'michaeljsmith/vim-indent-object'
+Plugin 'sakhnik/nvim-gdb', { 'do': ':!./install.sh' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-call plug#begin()
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-commentary'
-Plug 'michaeljsmith/vim-indent-object'
-call plug#end()
 " Relative linenumbers for jumping around
 set number relativenumber
 
